@@ -104,8 +104,6 @@ Efetua a exclusão de um grupo através do id
 http://localhost/goomer/public/api/grupo/deletar/id
 
 	Ex: http://localhost/goomer/public/api/grupo/deletar/1
-  
-# Membros
 
 Exibe todos os membros cadastrados junto aos seus respectivos grupos
 
