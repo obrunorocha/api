@@ -7,17 +7,17 @@ Rotas:
 # Gestão de pessoas
 Exibir todas as pessoas cadastradas
 
-http://localhost/goomer/public/api/pessoas
+http://localhost/api-master/public/api/pessoas
 
 Exibir pessoa cadastrada através do id
 
-http://localhost/goomer/public/api/pessoa/id
+http://localhost/api-master/public/api/pessoa/id
 
-	Ex: http://localhost/goomer/public/api/pessoa/1
+	Ex: http://localhost/api-master/public/api/pessoa/1
 
 Efetuar cadastro de uma pessoa
 
-http://localhost/goomer/public/api/pessoa/cadastrar
+http://localhost/api-master/public/api/pessoa/cadastrar
 
 	Exemplo de cadastro:
 
@@ -32,12 +32,12 @@ http://localhost/goomer/public/api/pessoa/cadastrar
 
 Atualizar dados de uma pessoa cadastrada através do id
 
-http://localhost/goomer/public/api/pessoa/atualizar/id
+http://localhost/api-master/public/api/pessoa/atualizar/id
 
 	Exemplo de como atualizar dados de uma pessoa cadastrada:
 
 	Inserir o id no endereço da rota
-	http://localhost/goomer/public/api/pessoa/atualizar/1
+	http://localhost/api-master/public/api/pessoa/atualizar/1
 
 	E enviar as alterações:
 
@@ -52,25 +52,25 @@ http://localhost/goomer/public/api/pessoa/atualizar/id
 
 Deletar uma pessoa cadastrada através do id
 
-http://localhost/goomer/public/api/pessoa/deletar/id
+http://localhost/api-master/public/api/pessoa/deletar/id
 
-	Ex: http://localhost/goomer/public/api/pessoa/deletar/1
+	Ex: http://localhost/api-master/public/api/pessoa/deletar/1
 
 # Gestão de grupos de discussão
 
 Exibir todos os grupos cadastrados
 
-http://localhost/goomer/public/api/grupos
+http://localhost/api-master/public/api/grupos
 
 Exibir apenas um grupo cadastrado através do seu id
 
-http://localhost/goomer/public/api/grupos/id
+http://localhost/api-master/public/api/grupos/id
 
-	Ex: http://localhost/goomer/public/api/grupos/1
+	Ex: http://localhost/api-master/public/api/grupos/1
 
 Efetuar o cadastro de um grupo
 
-http://localhost/goomer/public/api/grupo/cadastrar
+http://localhost/api-master/public/api/grupo/cadastrar
 
 	Exemplo de cadastro de grupo
 
@@ -83,7 +83,7 @@ http://localhost/goomer/public/api/grupo/cadastrar
 
 Efetuar atualização do grupo através do id
 
-http://localhost/goomer/public/api/grupo/atualizar/id
+http://localhost/api-master/public/api/grupo/atualizar/id
 
 	Exemplo de como atualizar dados do grupo:
 	
@@ -100,23 +100,23 @@ http://localhost/goomer/public/api/grupo/atualizar/id
 
 Efetua a exclusão de um grupo através do id
 
-http://localhost/goomer/public/api/grupo/deletar/id
+http://localhost/api-master/public/api/grupo/deletar/id
 
 	Ex: http://localhost/goomer/public/api/grupo/deletar/1
 
 Exibe todos os membros cadastrados junto aos seus respectivos grupos
 
-http://localhost/goomer/public/api/grupos/membros
+http://localhost/api-master/public/api/grupos/membros
 
 Exibe apenas um membro associado a grupos através do id
 
-http://localhost/goomer/public/api/grupos/membro/id
+http://localhost/api-master/public/api/grupos/membro/id
 
 	Ex: http://localhost/goomer/public/api/grupos/membro/1
 
 Adicionar um membro a um grupo
 
-http://localhost/goomer/public/api/grupo/membro/adicionar
+http://localhost/api-master/public/api/grupo/membro/adicionar
 
 	Exemplo de como adicionar um membro a um grupo
 	
@@ -128,17 +128,19 @@ http://localhost/goomer/public/api/grupo/membro/adicionar
 
 Efetua a exclusão de um membro de um grupo através do seu id associativo
 
-http://localhost/goomer/public/api/grupo/membro/deletar/id
+http://localhost/api-master/public/api/grupo/membro/deletar/id
 
 Neste caso o id a ser inserido para exclusão vem da rota 
 
-http://localhost/goomer/public/api/grupos/membros 
+http://localhost/api-master/public/api/grupos/membros 
 
-	Ex: http://localhost/goomer/public/api/grupo/membro/deletar/1
+	Ex: http://localhost/api-master/public/api/grupo/membro/deletar/1
 
 Obs: Antes de iniciar os testes, efetuar a criação do Banco de Dados utilizando o arquivo sqlGoomer.sql;
 
 # Referências:
+
+Testes de rotas usando RESTEASY
 
 Documentação PHP
 
