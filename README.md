@@ -1,5 +1,4 @@
-# goomer
-goomer
+# API CRUD COM PHP E MYSQL
 
 Bruno Rocha de Lima - obrunorocha@outlook.com
 
